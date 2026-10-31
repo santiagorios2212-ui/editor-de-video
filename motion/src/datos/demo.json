@@ -1,0 +1,14 @@
+{
+  "fps": 30,
+  "frames": 90,
+  "duracion": 3.0,
+  "cara": { "fx": 0.5, "fy": 0.4 },
+  "camara": [
+    { "f": 0, "tipo": "corte", "s": 1.0, "dur": 0 }
+  ],
+  "zonas": [],
+  "transiciones": [],
+  "fondos": [],
+  "sacudidas": [],
+  "graficos": []
+}

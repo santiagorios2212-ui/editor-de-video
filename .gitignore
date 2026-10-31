@@ -1,0 +1,63 @@
+# Archivos del sistema operativo
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# Node y dependencias
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# Salidas de renderizado Remotion
+motion/out/*
+!motion/out/.gitkeep
+out/
+
+# Vídeos y audios (conservando únicamente los efectos SFX base sintetizados)
+*.mp4
+*.mov
+*.avi
+*.mkv
+*.wav
+!recursos/sfx/*.wav
+
+# Directorios de trabajo del creador (se preservan los README y .gitkeep)
+brutos/*
+!brutos/README.md
+!brutos/.gitkeep
+
+proyectos/*
+!proyectos/README.md
+!proyectos/.gitkeep
+
+referencias/*
+!referencias/README.md
+!referencias/.gitkeep
+
+branding/*
+!branding/README.md
+!branding/.gitkeep
+
+# Perfil del creador (generado automáticamente durante el onboarding)
+perfil-creador.md
+
+# Variables de entorno y credenciales
+.env
+.env.local
+.env.*.local
+*.lock
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+venv/
+.venv/
